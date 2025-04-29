@@ -1,16 +1,16 @@
-// City to country mapping
-const cityToCountry = {
-    // UK cities
-    'london': 'UK',
-    'manchester': 'UK',
-    'birmingham': 'UK',
-    'edinburgh': 'UK',
-    'glasgow': 'UK',
-    'liverpool': 'UK',
-    'bristol': 'UK',
-    'leeds': 'UK',
-    'sheffield': 'UK',
-    'newcastle': 'UK'
+// City to country mapping with coordinates
+const cityData = {
+    // UK cities with approximate coordinates
+    'london': { country: 'UK', lat: 51.5074, lon: -0.1278 },
+    'manchester': { country: 'UK', lat: 53.4808, lon: -2.2426 },
+    'birmingham': { country: 'UK', lat: 52.4862, lon: -1.8904 },
+    'edinburgh': { country: 'UK', lat: 55.9533, lon: -3.1883 },
+    'glasgow': { country: 'UK', lat: 55.8642, lon: -4.2518 },
+    'liverpool': { country: 'UK', lat: 53.4084, lon: -2.9916 },
+    'bristol': { country: 'UK', lat: 51.4545, lon: -2.5879 },
+    'leeds': { country: 'UK', lat: 53.8008, lon: -1.5491 },
+    'sheffield': { country: 'UK', lat: 53.3811, lon: -1.4701 },
+    'newcastle': { country: 'UK', lat: 54.9783, lon: -1.6178 }
 };
 
 // Category styling
@@ -128,10 +128,63 @@ async function loadProduceData() {
     }
 }
 
+// Helper function to calculate distance between two points using Haversine formula
+function calculateDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Earth's radius in kilometers
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = 
+        Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
+        Math.sin(dLon/2) * Math.sin(dLon/2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    return R * c;
+}
+
+// Function to find nearest supported city
+function findNearestCity(inputCity) {
+    const normalizedInput = inputCity.toLowerCase().trim();
+    
+    // First check for exact match
+    if (cityData[normalizedInput]) {
+        return { city: normalizedInput, distance: 0 };
+    }
+    
+    // If no exact match, find the nearest city
+    let nearestCity = null;
+    let minDistance = Infinity;
+    
+    for (const [city, data] of Object.entries(cityData)) {
+        const distance = calculateDistance(
+            data.lat, data.lon,
+            cityData[normalizedInput]?.lat || data.lat,
+            cityData[normalizedInput]?.lon || data.lon
+        );
+        
+        if (distance < minDistance) {
+            minDistance = distance;
+            nearestCity = city;
+        }
+    }
+    
+    return { city: nearestCity, distance: Math.round(minDistance) };
+}
+
 // Helper function to determine region based on city
 function getRegion(city) {
-    const normalizedCity = city.toLowerCase().trim();
-    return cityToCountry[normalizedCity] || null;
+    const nearest = findNearestCity(city);
+    if (nearest.distance > 0) {
+        showInfo(`Using data for ${nearest.city} (nearest supported city, ${nearest.distance}km away)`);
+    }
+    return cityData[nearest.city]?.country || null;
+}
+
+// Function to show info message
+function showInfo(message) {
+    const infoDiv = document.createElement('div');
+    infoDiv.className = 'bg-blue-50 text-blue-700 p-4 rounded-md mb-4';
+    infoDiv.textContent = message;
+    resultsDiv.insertBefore(infoDiv, resultsDiv.firstChild);
 }
 
 // Function to display results
