@@ -1,0 +1,588 @@
+{
+  "UK": {
+    "0": [
+      {
+        "name": "Rhubarb (forced)",
+        "category": "fruit"
+      },
+      {
+        "name": "Kale",
+        "category": "veg"
+      },
+      {
+        "name": "Main‑crop potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Parsnip",
+        "category": "veg"
+      },
+      {
+        "name": "Swede",
+        "category": "veg"
+      },
+      {
+        "name": "Leek",
+        "category": "veg"
+      },
+      {
+        "name": "Savoy cabbage",
+        "category": "veg"
+      }
+    ],
+    "1": [
+      {
+        "name": "Rhubarb (forced)",
+        "category": "fruit"
+      },
+      {
+        "name": "Kale",
+        "category": "veg"
+      },
+      {
+        "name": "Purple‑sprouting broccoli",
+        "category": "veg"
+      },
+      {
+        "name": "Main‑crop potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Parsnip",
+        "category": "veg"
+      },
+      {
+        "name": "Swede",
+        "category": "veg"
+      },
+      {
+        "name": "Leek",
+        "category": "veg"
+      },
+      {
+        "name": "Savoy cabbage",
+        "category": "veg"
+      }
+    ],
+    "2": [
+      {
+        "name": "Spring greens",
+        "category": "veg"
+      },
+      {
+        "name": "Kale",
+        "category": "veg"
+      },
+      {
+        "name": "Purple‑sprouting broccoli",
+        "category": "veg"
+      },
+      {
+        "name": "Main‑crop potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Leek",
+        "category": "veg"
+      },
+      {
+        "name": "Wild garlic",
+        "category": "forage"
+      },
+      {
+        "name": "Nettle tops",
+        "category": "forage"
+      },
+      {
+        "name": "Chickweed",
+        "category": "forage"
+      }
+    ],
+    "3": [
+      {
+        "name": "Rhubarb (outdoor)",
+        "category": "fruit"
+      },
+      {
+        "name": "Asparagus",
+        "category": "veg"
+      },
+      {
+        "name": "Spring greens",
+        "category": "veg"
+      },
+      {
+        "name": "Purple‑sprouting broccoli",
+        "category": "veg"
+      },
+      {
+        "name": "Leek",
+        "category": "veg"
+      },
+      {
+        "name": "Wild garlic",
+        "category": "forage"
+      },
+      {
+        "name": "Nettle tops",
+        "category": "forage"
+      },
+      {
+        "name": "Chickweed",
+        "category": "forage"
+      }
+    ],
+    "4": [
+      {
+        "name": "Rhubarb (outdoor)",
+        "category": "fruit"
+      },
+      {
+        "name": "Asparagus",
+        "category": "veg"
+      },
+      {
+        "name": "Turnip",
+        "category": "veg"
+      },
+      {
+        "name": "Cauliflower",
+        "category": "veg"
+      },
+      {
+        "name": "Elderflower",
+        "category": "forage"
+      },
+      {
+        "name": "Nettle tops",
+        "category": "forage"
+      },
+      {
+        "name": "Chickweed",
+        "category": "forage"
+      }
+    ],
+    "5": [
+      {
+        "name": "Strawberry",
+        "category": "fruit"
+      },
+      {
+        "name": "Cherry",
+        "category": "fruit"
+      },
+      {
+        "name": "Gooseberry",
+        "category": "fruit"
+      },
+      {
+        "name": "Rhubarb (outdoor)",
+        "category": "fruit"
+      },
+      {
+        "name": "Broad beans",
+        "category": "veg"
+      },
+      {
+        "name": "Garden peas",
+        "category": "veg"
+      },
+      {
+        "name": "New potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Carrots (new season)",
+        "category": "veg"
+      },
+      {
+        "name": "Beetroot",
+        "category": "veg"
+      },
+      {
+        "name": "Turnip",
+        "category": "veg"
+      },
+      {
+        "name": "Courgette",
+        "category": "veg"
+      },
+      {
+        "name": "Cauliflower",
+        "category": "veg"
+      },
+      {
+        "name": "Elderflower",
+        "category": "forage"
+      },
+      {
+        "name": "Nettle tops",
+        "category": "forage"
+      }
+    ],
+    "6": [
+      {
+        "name": "Strawberry",
+        "category": "fruit"
+      },
+      {
+        "name": "Raspberry",
+        "category": "fruit"
+      },
+      {
+        "name": "Cherry",
+        "category": "fruit"
+      },
+      {
+        "name": "Gooseberry",
+        "category": "fruit"
+      },
+      {
+        "name": "Redcurrant",
+        "category": "fruit"
+      },
+      {
+        "name": "Blackcurrant",
+        "category": "fruit"
+      },
+      {
+        "name": "Broad beans",
+        "category": "veg"
+      },
+      {
+        "name": "Garden peas",
+        "category": "veg"
+      },
+      {
+        "name": "Runner beans",
+        "category": "veg"
+      },
+      {
+        "name": "New potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Carrots (new season)",
+        "category": "veg"
+      },
+      {
+        "name": "Beetroot",
+        "category": "veg"
+      },
+      {
+        "name": "Turnip",
+        "category": "veg"
+      },
+      {
+        "name": "Courgette",
+        "category": "veg"
+      },
+      {
+        "name": "Cauliflower",
+        "category": "veg"
+      },
+      {
+        "name": "Chanterelle mushroom",
+        "category": "forage"
+      }
+    ],
+    "7": [
+      {
+        "name": "Apple (dessert & cooking varieties)",
+        "category": "fruit"
+      },
+      {
+        "name": "Raspberry",
+        "category": "fruit"
+      },
+      {
+        "name": "Blackberry (cultivated)",
+        "category": "fruit"
+      },
+      {
+        "name": "Plum",
+        "category": "fruit"
+      },
+      {
+        "name": "Redcurrant",
+        "category": "fruit"
+      },
+      {
+        "name": "Blackcurrant",
+        "category": "fruit"
+      },
+      {
+        "name": "Garden peas",
+        "category": "veg"
+      },
+      {
+        "name": "Runner beans",
+        "category": "veg"
+      },
+      {
+        "name": "Main‑crop potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Carrots (new season)",
+        "category": "veg"
+      },
+      {
+        "name": "Beetroot",
+        "category": "veg"
+      },
+      {
+        "name": "Turnip",
+        "category": "veg"
+      },
+      {
+        "name": "Courgette",
+        "category": "veg"
+      },
+      {
+        "name": "Cauliflower",
+        "category": "veg"
+      },
+      {
+        "name": "Elderberry",
+        "category": "forage"
+      },
+      {
+        "name": "Blackberry (wild)",
+        "category": "forage"
+      },
+      {
+        "name": "Chanterelle mushroom",
+        "category": "forage"
+      }
+    ],
+    "8": [
+      {
+        "name": "Apple (dessert & cooking varieties)",
+        "category": "fruit"
+      },
+      {
+        "name": "Pear",
+        "category": "fruit"
+      },
+      {
+        "name": "Blackberry (cultivated)",
+        "category": "fruit"
+      },
+      {
+        "name": "Plum",
+        "category": "fruit"
+      },
+      {
+        "name": "Runner beans",
+        "category": "veg"
+      },
+      {
+        "name": "Kale",
+        "category": "veg"
+      },
+      {
+        "name": "Main‑crop potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Carrots (new season)",
+        "category": "veg"
+      },
+      {
+        "name": "Beetroot",
+        "category": "veg"
+      },
+      {
+        "name": "Parsnip",
+        "category": "veg"
+      },
+      {
+        "name": "Turnip",
+        "category": "veg"
+      },
+      {
+        "name": "Courgette",
+        "category": "veg"
+      },
+      {
+        "name": "Squash & Pumpkin",
+        "category": "veg"
+      },
+      {
+        "name": "Leek",
+        "category": "veg"
+      },
+      {
+        "name": "Cauliflower",
+        "category": "veg"
+      },
+      {
+        "name": "Elderberry",
+        "category": "forage"
+      },
+      {
+        "name": "Blackberry (wild)",
+        "category": "forage"
+      },
+      {
+        "name": "Hazelnut",
+        "category": "forage"
+      },
+      {
+        "name": "Chanterelle mushroom",
+        "category": "forage"
+      },
+      {
+        "name": "Cep (Porcini) mushroom",
+        "category": "forage"
+      }
+    ],
+    "9": [
+      {
+        "name": "Apple (dessert & cooking varieties)",
+        "category": "fruit"
+      },
+      {
+        "name": "Pear",
+        "category": "fruit"
+      },
+      {
+        "name": "Kale",
+        "category": "veg"
+      },
+      {
+        "name": "Main‑crop potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Carrots (new season)",
+        "category": "veg"
+      },
+      {
+        "name": "Beetroot",
+        "category": "veg"
+      },
+      {
+        "name": "Parsnip",
+        "category": "veg"
+      },
+      {
+        "name": "Swede",
+        "category": "veg"
+      },
+      {
+        "name": "Turnip",
+        "category": "veg"
+      },
+      {
+        "name": "Squash & Pumpkin",
+        "category": "veg"
+      },
+      {
+        "name": "Leek",
+        "category": "veg"
+      },
+      {
+        "name": "Cauliflower",
+        "category": "veg"
+      },
+      {
+        "name": "Savoy cabbage",
+        "category": "veg"
+      },
+      {
+        "name": "Sloe",
+        "category": "forage"
+      },
+      {
+        "name": "Sweet chestnut",
+        "category": "forage"
+      },
+      {
+        "name": "Hazelnut",
+        "category": "forage"
+      },
+      {
+        "name": "Chanterelle mushroom",
+        "category": "forage"
+      },
+      {
+        "name": "Cep (Porcini) mushroom",
+        "category": "forage"
+      }
+    ],
+    "10": [
+      {
+        "name": "Pear",
+        "category": "fruit"
+      },
+      {
+        "name": "Kale",
+        "category": "veg"
+      },
+      {
+        "name": "Main‑crop potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Parsnip",
+        "category": "veg"
+      },
+      {
+        "name": "Swede",
+        "category": "veg"
+      },
+      {
+        "name": "Leek",
+        "category": "veg"
+      },
+      {
+        "name": "Cauliflower",
+        "category": "veg"
+      },
+      {
+        "name": "Savoy cabbage",
+        "category": "veg"
+      },
+      {
+        "name": "Sloe",
+        "category": "forage"
+      },
+      {
+        "name": "Sweet chestnut",
+        "category": "forage"
+      }
+    ],
+    "11": [
+      {
+        "name": "Kale",
+        "category": "veg"
+      },
+      {
+        "name": "Main‑crop potatoes",
+        "category": "veg"
+      },
+      {
+        "name": "Parsnip",
+        "category": "veg"
+      },
+      {
+        "name": "Swede",
+        "category": "veg"
+      },
+      {
+        "name": "Leek",
+        "category": "veg"
+      },
+      {
+        "name": "Cauliflower",
+        "category": "veg"
+      },
+      {
+        "name": "Savoy cabbage",
+        "category": "veg"
+      }
+    ]
+  }
+}
